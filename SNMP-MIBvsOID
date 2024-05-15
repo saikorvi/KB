@@ -1,0 +1,15 @@
+OID - Object Identifier
+MIB - Management Information Base
+
+What's the difference between OID & MIB?
+> Simply put, an OID is a code string that represents some value. For example: you have an interface Eth0/0. This interface has some characteristics like MTU, Bandwidth, Packet count, Error count etc. Each of these
+can be represented by a numeric value.
+
+MTU  1500
+Bandwidth  10000
+Packets  25000
+Errors  1440
+
+Each of these values can be queried or read using a specific OID. For example MTU could be linked to OID: 2.3.1.5.1.5.1.2.2.3.2.2.2.3.2.1.
+
+And MIB is just a database of all available OIDs for the device, describing which OID is linked to what value.
